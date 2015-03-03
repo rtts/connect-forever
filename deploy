@@ -1,0 +1,2 @@
+#!/bin/sh
+rsync -av --delete site/ www@rtts.eu:connect-forever
