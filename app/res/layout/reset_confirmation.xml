@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  
+  <TextView
+    android:id="@+id/reset_confirmation_text"
+    android:text="@string/reset_confirmation_text"
+    android:textSize="18sp"
+    android:gravity="center"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:layout_weight="0"
+    style="@style/body"
+    />
+  
+  <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    >
+    
+	  <LinearLayout
+	    android:orientation="vertical"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerInParent="true">
+	  
+	    <Button
+	      android:id="@+id/reset_confirmation_button1"
+	      android:text="@string/reset_confirmation_button1"
+	      android:background="@drawable/button_background"
+	      android:layout_weight="0"
+	      style="@style/button_text"
+	      />
+	      
+	    <Button
+	      android:id="@+id/reset_confirmation_button2"
+	      android:text="@string/reset_confirmation_button2"
+	      android:background="@drawable/button_background"
+	      android:layout_weight="0"
+	      style="@style/button_text"
+	      />
+	      
+	  </LinearLayout>  
+	  
+  </RelativeLayout>
+  
+</LinearLayout>

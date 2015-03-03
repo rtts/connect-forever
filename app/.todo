@@ -1,0 +1,4 @@
+start/stop updating naar onstart onstop 
+Nog eens goed kijken naar dialogs, welke moeten waar? Misschien alleen error Dialog generaliseren 
+Progress dialog maken 
+Back moet niet mogelijk zijn vanaf showProposal 

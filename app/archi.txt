@@ -1,0 +1,189 @@
+
+
+Hoe hoort het te gaan? (use cases)
+
+OPVRAGEN REGISTRATION ID
+Precondities:
+- De user heeft nog geen registration id
+
+1. De use case begint als een user zijn programma start, of iets probeert te doen waarvoor een id nodig is
+2. De user ziet een progress dialog terwijl het registration id wordt gezocht
+3. a. Het registreren lukt niet, de user krijgt een error message te zien.
+      - ACCOUNT_MISSING -> Vuur Account choosing intent.
+      - Overig: algemene error message.
+   b. Het registreren lukt wel, er is nu een registration id.
+
+BINNENKRIJGEN REGISTRATION ID
+1. De use case begint als er een bericht binnenkomt van C2DM met daarin een (nieuw) registration id
+2. Het (nieuw aangemaakte) uuid en het registration id worden verstuurd naar de Web API
+3. a. Dit lukt.
+3. b. Dit lukt niet. Probeer later (?) opnieuw.
+4. Als er een progress dialog draait, stop deze dan nu.
+
+- Start programma eerste keer, je ziet VirginActivity
+
+  > "I want to make a proposal"
+    
+    * Geen internetverbinding:
+        "No internet connection"
+        [OK]
+      	Zie ConnectivityManager.getActiveNetworkInfo()
+    
+    > Progress dialog: "Requesting proposal key..."
+    
+      -> try WebApi.getProposalKey
+
+        * De server heeft geen geldig SSL-cert (oid SSL)
+        * Geen verbinding met de server:
+        * Geen geldige respons van api:
+        --> catch WebAPIException {
+          alertDialog(exception)
+          [OK]
+        }
+
+      > Start ShowProposalActivity
+    
+  > "Enter a proposal key"
+  
+    - TODO  
+    
+
+- ShowProposalActivity
+  
+  > "Done!"
+	
+	  * Geen internetverbinding
+	    "No internet connection"
+	    [OK]
+	
+	  -> try WebApi.getStatus()
+	
+      * De server heeft geen geldig SSL-cert (oid SSL)
+      * Geen verbinding met de server:
+      * Geen geldige respons van api:
+        --> catch WebApiException {
+          alertDialog(exception)
+          [OK]
+        }
+        
+      > status == OTHER_IS_ACTIVE || OTHER_IS_INACTIVE
+         
+        - Alert dialog: "Congratulations!"
+          [START APP]
+        
+      > status == NOT_CONNECTED
+        
+        - Alert dialog: "Sorry, not yet"
+          [OK]
+
+  > "Withdraw proposal"
+        
+    * Geen internetverbinding
+        
+    -> try WebApi.deleteProposalKey()
+        
+      * Web API error
+     	  --> catch WebApiException {
+       	    alertDialog(exception)
+       	    [OK]
+        	  }
+        
+    > Alert dialog: 
+          "Proposal deleted"
+          [OK]
+        
+          > Return to VirginActivity
+        
+  > "Somebody proposed to me" (Virgin)
+    * Geen internetverbinding:
+        "No internet connection"
+        [RETRY] [CANCEL]
+
+    - "Enter proposal key"
+      
+      WebAPI()
+
+      * Ongeldige proposal key:
+          "Proposal does not exist"
+          [OK]
+      * 
+
+
+public void getStatus()
+
+getStatus()
+askDatastore(GET_STATUS);
+
+
+
+WebApi.request(STATUS)
+WebApi.request(LOCATION)
+WebApi.request(PROPOSAL)
+WebApi.request(PROPOSAL_DELETION)
+WebApi.postLocation()
+
+public void askDatastore(GET_STATUS)
+                        (POST_LOCATION)
+public void askDatastore(GET_UUID)
+getStatus();
+
+if (! internetConnection) {
+  showDialog(NO_INTERNET);
+} else {
+  try {
+    WebApi.getStatus();
+  catch (WebApiException e) {
+    showDialog(e);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+private class GetStatusTask extends AsyncTask<Void, Status, Status> {
+  String errorMessage;
+  ProgressDialog dialog;
+  
+  protected void onPreExcecute() {
+    dialog = ProgressDialog.show(this, "", 
+        getString(R.string.loading), true);
+  }
+  
+  protected Status doInBackground() {
+    try {
+      return WebApi.getStatus();
+    }
+    catch (WebApiException e) {
+      errorMessage = e.getMessage();
+      return null;
+    }
+  }
+  
+  protected Status onPostExecute(Status status) {
+    dialog.dismiss();
+    if(status == null) {
+      showDialog(API_EXCEPTION, new Bundle().putString("message",
+          errorMessage));
+    }
+    else {
+      return status;
+    }
+  }
+}
+
+
+
+
+Status status = new GetStatusTask().execute()
+Status status = (Status) new ApiTask(GETSTATUS).execute()
+

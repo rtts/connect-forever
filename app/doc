@@ -1,0 +1,2 @@
+#!/bin/sh
+javadoc -classpath .:/usr/local/android_sdk/platforms/android-3/android.jar -link "/usr/local/android_sdk/docs/reference" -sourcepath src/ -d docs/ -subpackages com.connectforever

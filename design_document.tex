@@ -1,0 +1,137 @@
+\documentclass[a4paper,12pt]{article}
+
+\title{Connect Forever: Design Document}
+\author{Jolanda Verhoef \and Jaap Joris Vens}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+Connect Forever is an Android app that allows two devices to connect and point to 
+each other. 
+
+\section{Functional Design}
+
+\section{Technical Design}
+
+Other Device Location
+Starts thread that asks for other's location every x seconds
+
+My Device Location
+Starts gps updates. Tells the api the current location every x seconds
+
+Location Service
+Starts status updates. For now, status updates even when other location is
+asked. Status is asked every y seconds.
+
+
+
+States:
+VIRGIN
+PROPOSED
+ENTERED
+CONNECTED
+OTHER_RESET
+Service may only run in PROPOSED, CONNECTED states.
+
+State transistions:
+
+NONE -> VIRGIN
+Application is downloaded from the market.
+Status Service does not start immediately.
+There is a (persistent) flag indicating if the user could become connected.
+Program is started.
+Virgin activity is shown.
+
+  VIRGIN -> PROPOSED
+  ENTERED -> PROPOSED
+  User chooses "Propose".
+  A proposal key is generated and shown (1).
+  Status Service is started, flag set to true (persistently).
+  User can check whether he/she is connected (2).
+  
+  (1) No key is returned from internet: appropriate error dialog is shown in
+      virgin activity.
+  (2) No response from internet: appropriate error dialog is shown in
+      ShowProposal activity.
+  
+    PROPOSED -> CONNECTED
+    Other device connects while program is active.
+    Program is in this case always in ShowProposal activity.
+    User clicks on "Connect" - API returns connected (1).
+    Main Activity is shown with Hooray message in front of it.
+    
+    (1) Alternatively, the service returns connected, same happens.
+    
+    PROPOSED -> CONNECTED
+    Other device connects while program is inactive.
+    Service notices, can show notification (?).
+    When program is started, should go to Main Activity with Hooray message.
+  
+    PROPOSED -> ENTERED / VIRGIN
+    User selects "Withdraw proposal" (1).
+    Show Proposal Activity is closed.
+    
+    (1) No internet -> error dialog.
+    
+  VIRGIN -> ENTERED
+  User chooses "Enter proposal".
+  An edit text is available to enter key (key is remembered persistently!).
+  User enters key -> any letters gives ENTERED state, unless currently in
+  PROPOSED state.
+  
+  ENTERED -> CONNECTED
+  User clicks "Connect".
+  Key is checked by API, returns "Congratulations" when connected (1).
+  Hooray message is shown, after OK the Main Activity is shown.
+  
+  (1) Problem occurs, user is notified by error dialog.
+  
+
+Precondition: State is CONNECTED
+
+States:
+NONE
+STATUS_UPDATES
+LOCATION_PUSHING
++ LOCATION_PULLING
+
+... -> + LOCATION_PULLING
+Precondition: state is CONNECTED
+Starting Main Activity starts LOCATION_PULLING (1)
+
+(1) If no connection -> User notified by error dialog.
+
+... -> - LOCATION_PULLING
+Stopping Main Activity stops LOCATION_PULLING.
+
+NONE -> STATUS_UPDATES
+Internet connection is established
+
+Status Service is running.
+
+CONNECTED -> OTHER_RESET -> VIRGIN
+Status Service receives "Not Connected" (other device resetted app)
+State is set to "OTHER_RESET", Main Activity will show Error dialog (either
+direct, or when program is started)
+OK leads to VIRGIN state.
+
+Status Service receives "Inactive", does nothing special
+
+STATUS_UPDATES -> LOCATION PUSHING
+Status Service receives "Active", starts LOCATION_PUSHING, stops
+STATUS_UPDATES.
+
+LOCATION_PUSING -> STATUS_UPDATES
+Status Service receives "Thank you", starts STATUS_UPDATES, stops
+LOCATION_PUSHING.
+
+... -> NONE
+Internet connection fails (API request returns Exception).
+Status Service responds by stopping itself.
+LOCATION_PULLING responds by showing error dialog.
+
+
+\section{Technical Design}
+\subsection{Web API}
+\subsection{Android App}

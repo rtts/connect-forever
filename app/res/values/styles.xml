@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="H1">
+    <item name="android:textSize">50sp</item>
+    <item name="android:textColor">@color/palet_dark</item>
+    <item name="android:typeface">serif</item>
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">fill_parent</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:layout_margin">10dp</item>
+  </style>
+  
+  <style name="H2" parent="@style/H1">
+    <item name="android:textSize">38sp</item>
+  </style>
+  
+  
+  <style name="small">
+  </style>
+  
+  <style name="footer">
+  </style>  
+  
+  <style name="body" parent="@style/H1">
+    <item name="android:textSize">25sp</item>
+  </style>
+  
+  <style name="button_text" parent="@style/body">
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:background">@drawable/button_background</item>
+    <item name="android:gravity">center</item>
+    <item name="android:padding">10dp</item>
+  </style>
+  
+  <style name="appStyle" parent="android:Theme.NoTitleBar">
+    <item name="android:windowBackground">@drawable/background</item>
+  </style>
+</resources>

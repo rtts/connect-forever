@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id      = "@+id/menu_force_check"
+          android:title   = "@string/force_check"
+          />
+    
+    <item android:id      = "@+id/menu_withdraw"
+          android:title   = "@string/proposal_pending_withdraw"
+          />
+
+</menu>

@@ -1,0 +1,79 @@
+User opent app
+  if connected {
+    open main activity
+    if not internet {
+      NO_INTERNET dialoog
+      if press CLOSE {
+        exit
+      }
+      else if press SETTINGS {
+        open settings
+        goto "open main activity"
+      }
+      else {
+        exit
+      }
+    }
+    else {
+      laat progressdialog CONNECTING zien
+      if press BACK (dialog dismiss) {
+        exit
+      }
+      if press MENU {
+        goto "User opent MAIN MENU"
+      }
+      vraag locatie aan api
+      if api error NOT CONNECTED {
+        sla op dat je not connected bent
+        haal progressdialog CONNECTING weg
+        laat NOT_CONNECTED dialog zien
+        if dialog closed {
+          goto "User opent app"
+        }
+      }
+      else if api error {
+        haal progressdialog CONNECTING weg
+        laat error GET_LOCATION zien
+        if press RETRY {
+          goto "vraag locatie aan api"
+        }
+        else if anything {
+          exit
+        }
+      }
+      else {
+        wacht op locatie push
+        locatie push komt binnen
+        sluit progressdialog CONNECTING als je je eigen locatie ook weet
+        laat pijl zien
+        voor iedere push die binnenkomt {
+          update locatie
+        }
+      }
+    }  
+      
+  else {
+    open virgin activity
+  
+
+
+
+
+
+Edge cases:
+- Connection_succeeded push received
+
+
+
+
+request registration id
+create new uuid
+register with web api
+do other requests, etc.
+
+MainActivity NO_INTERNET dialoog:
+GO TO SETTINGS: User gaat naar settings
+CLOSE APP:      User sluit app.
+
+MainActivity CONNECTING progress dialog:
+Connecting...

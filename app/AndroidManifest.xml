@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.connectforever"
+      android:versionCode="1"
+      android:versionName="1.0">
+      
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <permission      android:name="com.connectforever.permission.C2D_MESSAGE" 
+                     android:protectionLevel="signature" />
+    <uses-permission android:name="com.connectforever.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    
+    <application android:name=".AppInit"
+    		 android:label="@string/app_name"
+    		 android:icon="@drawable/launcher_icon"
+    		 android:theme="@style/appStyle">
+        
+        <service android:name=".C2DMReceiver"
+                 android:exported="true">
+          <intent-filter>
+              <action android:name="com.connectforever.CF_RECEIVE"/>
+          </intent-filter>
+        </service>
+        <receiver android:name="com.google.android.c2dm.C2DMBroadcastReceiver"
+                  android:permission="com.google.android.c2dm.permission.SEND">
+          <!-- Receive the actual message -->
+          <intent-filter>
+              <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+              <category android:name="com.connectforever" />
+          </intent-filter>
+          <!-- Receive the registration id -->
+          <intent-filter>
+              <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+              <category android:name="com.connectforever" />
+          </intent-filter>
+        </receiver>
+        
+        <activity android:name=".MainActivity"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait" />
+                  
+        <activity android:name=".VirginActivity"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".ShowProposalActivity"
+                  android:screenOrientation="portrait" />
+        
+        <activity android:name=".EnterProposalActivity"
+                  android:screenOrientation="portrait" />
+        
+        <activity android:name=".ResetConfirmationActivity"
+                  android:screenOrientation="portrait" />
+                  
+        <activity android:name=".PickArrowActivity"
+                  android:screenOrientation="portrait" />
+                  
+        <receiver android:name=".ServiceManager">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".ConnectedNotification">
+            <intent-filter>
+                <action android:name="com.connectforever.UPDATE_CONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".TestNotification">
+            <intent-filter>
+                <action android:name="com.connectforever.UPDATE_TEST"/>
+            </intent-filter>
+        </receiver>
+            </application>   
+    <uses-sdk android:minSdkVersion="8" />
+</manifest> 

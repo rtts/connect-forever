@@ -1,0 +1,11 @@
+/app/proguard.cfg
+/app/build.xml
+/app/local.properties
+/app/default.properties
+/app/build.properties
+/app/project.properties
+/app/gen
+/app/bin/
+/app/.classpath
+/app/.project
+/app/.settings

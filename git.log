@@ -1,0 +1,1311 @@
+commit 5346876dff01bb149ce53dd53034d175ee4fc182
+Author: Jaap Joris Vens <jj@returntothesource.nl>
+Date:   Sat Dec 28 20:44:55 2013 +0100
+
+    better than nothing...
+
+commit 0ae4a3ff9ac1c40d44edaf26955b4aa84bc62ebc
+Author: Jaap Joris Vens <jj@returntothesource.nl>
+Date:   Sat Dec 28 20:42:53 2013 +0100
+
+    saved this file from google cdn
+
+commit 6a1afa1c31d49754517cab52fe9070dc9fe92c06
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Mon Nov 26 20:16:08 2012 +0100
+
+    new deploy script
+
+commit ee756327566eb4a273f0ef4a06737ad3aa2e75b8
+Merge: 8b54b3e c50a74a
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Feb 2 17:50:17 2012 +0100
+
+    Merge branch 'master' of r2src.com:connect-forever
+
+commit 8b54b3e242b34f574eb182e2d54ae32690e27b3b
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Feb 2 17:45:00 2012 +0100
+
+    favicon added
+
+commit c50a74a4f6b8bf687a4edaa2e115a3f4520e8ade
+Author: jj <jj@r2src.com>
+Date:   Sun Dec 25 23:01:36 2011 +0100
+
+    added download links to website (and a hidden apk ;-)
+
+commit 9add15a949bf7c2402c60f41a043e85441683f4b
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Sun Dec 25 22:59:18 2011 +0100
+
+    Newest apk plus screenshots
+
+commit 493dcfa5d5601c6ca57572ce3bc653e98674a985
+Author: jj <jj@r2src.com>
+Date:   Sun Dec 25 22:41:38 2011 +0100
+
+    resized feature graphic
+
+commit f360864c1b888a97aa2d5e2201993eb03b559bde
+Author: jj <jj@r2src.com>
+Date:   Sun Dec 25 22:40:37 2011 +0100
+
+    resized promo graphic
+
+commit 33a6b0387e48bf1a7e9a356240a44112cd7f5392
+Author: jj <jj@r2src.com>
+Date:   Sun Dec 25 22:38:14 2011 +0100
+
+    created appstore icon and feature graphics
+
+commit f3f3bc72337d48f9d9f46cbd420198cf5fc0afdd
+Author: jj <jj@r2src.com>
+Date:   Sun Dec 25 22:05:02 2011 +0100
+
+    some string improvements
+
+commit d3d6349f1adacbbed9a02bc98d8a3edb89921283
+Author: jj <jj@r2src.com>
+Date:   Thu Dec 22 18:22:01 2011 +0100
+
+    Answered some more questions.
+
+commit bdcb6f3bbf01055d1ebf8917fad981c66a512da1
+Merge: b347366 8643809
+Author: jj <jj@r2src.com>
+Date:   Thu Dec 22 18:06:18 2011 +0100
+
+    Merge branch 'master' of bitbucket.org:Jolanda_Verhoef/connect-forever
+
+commit b3473663cbac12afebbb19f848d98496b68320b6
+Author: jj <jj@r2src.com>
+Date:   Thu Dec 22 17:49:16 2011 +0100
+
+    changed banner text
+
+commit c3980b782ab0ac8f017bd8bc25c8fef6be203696
+Author: jj <jj@r2src.com>
+Date:   Thu Dec 22 17:41:43 2011 +0100
+
+    removed "comments powered by" since the logo is obvious enough
+
+commit 86438098102db55695abbd047d8760763fe96068
+Merge: 976125c 056751a
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Dec 22 17:24:52 2011 +0100
+
+    Merge branch 'master' of bitbucket.org:Jolanda_Verhoef/connect-forever
+
+commit 62f78814a03eb1ef32fe93f237af3e3a19bb6090
+Author: jj <jj@r2src.com>
+Date:   Thu Dec 22 17:24:24 2011 +0100
+
+    enabled Disqus comments
+
+commit 976125c72b8caffb64c51e8d568fde12f2d8e30e
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Dec 22 17:23:48 2011 +0100
+
+    Release version of app
+
+commit 056751a2318fcc79457ccac4460620dd0fab3a70
+Author: jj <jj@r2src.com>
+Date:   Thu Dec 22 17:10:56 2011 +0100
+
+    put up a cute couple on the website
+
+commit 2032faa4068758e328dbc798d0086274f5b371a4
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Dec 22 17:05:09 2011 +0100
+
+    Getting rid of some unnecessary stuff
+
+commit 4128566d348f45497f2488fc5d880ce39dd062ca
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Dec 22 16:30:10 2011 +0100
+
+    Refactoring.
+
+commit e96d2d8e48cd98b4aaa8820d2cc2420cf41b4188
+Merge: 6ba7be9 89eb662
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Dec 22 15:37:37 2011 +0100
+
+    Merge branch 'master' of git@bitbucket.org:Jolanda_Verhoef/connect-forever.git
+
+commit 6ba7be9c7ce56eeee1c938e8d3762bb4f3524948
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Dec 22 15:37:27 2011 +0100
+
+    Fixes a not yet specified bug :).
+
+commit 89eb662b91ca859fafb95b6f27e2349785c00a0f
+Author: jj <jj@r2src.com>
+Date:   Thu Dec 22 15:34:44 2011 +0100
+
+    final launcher and status icon, closes #13
+
+commit 6d3a09a6941e2bc5eda376ce30de5a4742e50f55
+Merge: edf8715 b690b81
+Author: jj <jj@r2src.com>
+Date:   Thu Dec 22 15:10:56 2011 +0100
+
+    Merge branch 'master' of bitbucket.org:Jolanda_Verhoef/connect-forever
+
+commit edf8715a715b0bb76dcbf1f596a931501064d6cd
+Author: jj <jj@r2src.com>
+Date:   Thu Dec 22 15:10:31 2011 +0100
+
+    increased ring size in icons
+
+commit b690b81b54c809959ac81ebf70ce25416aa8da88
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Dec 22 14:42:05 2011 +0100
+
+    Fixes #6.
+
+commit d75f608aafce6b6befabb6476bd7c798aaa9f6f3
+Author: jj <jj@r2src.com>
+Date:   Thu Dec 22 14:32:00 2011 +0100
+
+    created status icon
+
+commit df0f6ebaef90ca3551efe1da962440b37504c127
+Merge: 7b03665 34fa828
+Author: jj <jj@r2src.com>
+Date:   Thu Dec 22 14:12:30 2011 +0100
+
+    Merge branch 'master' of bitbucket.org:Jolanda_Verhoef/connect-forever
+
+commit 7b036656fdc9a4dad43063337e52aebd434a70d0
+Author: jj <jj@r2src.com>
+Date:   Thu Dec 22 14:12:20 2011 +0100
+
+    created new launcher icon (and deleted some old stuff)
+
+commit 34fa828b0aa5ce77c5c4fde4a6dbc9eab67b19b6
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Dec 22 13:57:49 2011 +0100
+
+    Fixes #1. On first run of app, the image is copied to the sd card, user
+    can see it.
+
+commit 9f213abf8cc333d9f6b39e6053e8f16114820498
+Merge: 0cbd3e2 7588062
+Author: jj <jj@r2src.com>
+Date:   Thu Dec 22 13:16:03 2011 +0100
+
+    Merge branch 'master' of bitbucket.org:Jolanda_Verhoef/connect-forever
+
+commit 758806264d0cb04a42d76c73fbdf0c4fb38a0c4d
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Wed Dec 21 11:53:36 2011 +0100
+
+    fixes #15.
+
+commit 7ee659bd03e7783573ce52a375ca0fa6acd2f3d4
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Wed Dec 21 11:46:17 2011 +0100
+
+    Added a button focused and pressed state, so that a user can see if a
+    button is focused/pressed
+
+commit 0cbd3e22c0e32d4b40f0707dcebdd38d86b97993
+Author: jj <jj@r2src.com>
+Date:   Mon Dec 19 15:10:29 2011 +0100
+
+    updated some faqs
+
+commit 5476f8888ce427fb53befd560cd2b247d0947a99
+Merge: f1c6a74 9a78ad8
+Author: jj <jj@r2src.com>
+Date:   Mon Dec 19 14:25:22 2011 +0100
+
+    Merge branch 'master' of edge:projects/connect-forever
+
+commit 9a78ad8bb79fb427eea7cce38db3d1ef87f3bff7
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Mon Dec 19 14:23:50 2011 +0100
+
+    Changing the FAQ of the website.
+
+commit 9daf43f96949ef81131252ad121c29a2409321d6
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Dec 8 09:36:39 2011 +0100
+
+    Fix for out of memory exception in change arrow activity.
+
+commit b1a0aea411e78c8e91f24a4df50ae851568416ff
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Wed Dec 7 16:38:13 2011 +0100
+
+    fixes #5
+
+commit f65f7d960f3337214758a623c9356853226cdad8
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Wed Dec 7 16:00:08 2011 +0100
+
+    fixes #14
+
+commit cceae2040f9190b0b5880c10589725cc61bc1d97
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Wed Dec 7 14:51:16 2011 +0100
+
+    Added a test to make it easier to see when a push arrived.
+
+commit 20c06930c896071ec7b4a41cfefd316d9808a561
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Dec 6 12:18:30 2011 +0100
+
+    Improvement on last two commits.
+
+commit 432481023b3fedb89f134d77cd8a9f8f4bfe53db
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Dec 6 11:54:01 2011 +0100
+
+    fixes #12. Timeout of 30 seconds is used. This also includes the quick
+    fix!
+
+commit 0505a90b69a331604e134ab6283d1fe36aabce83
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Dec 6 11:26:11 2011 +0100
+
+    fixes #8. Location is only send if 'send' parameter in
+    please_send_location push is set to true. Closing the app sends a delete
+    location request to the web api. We could think about a way to prevent
+    sending this if the other device isn't planning on sending anything.
+    
+    Not tested!
+
+commit 9f1cf503d7258d7f7c90267f309e6af3b873abca
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Mon Dec 5 18:10:05 2011 +0100
+
+    Refactoring + showing dialogs when connection succeeded
+
+commit 4d91beac5b91751bb0764a36642f97b50bdb10e6
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Mon Dec 5 16:48:01 2011 +0100
+
+    Using the Observer class counting method instead of our own.
+
+commit f1c6a74363f17758ef1cd3e1b6214c1f6947786c
+Author: jj <jj@r2src.com>
+Date:   Mon Dec 5 16:25:33 2011 +0100
+
+    added debug logging with googles c2dm response
+
+commit 42156f383f514380a90c2bb815132a7a17e26531
+Author: jj <jj@r2src.com>
+Date:   Mon Dec 5 16:17:51 2011 +0100
+
+    added DELETE /location api call to signify putting the location is no longer needed
+
+commit 21d409ee99b081972f8b61915863a29262c728b6
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Mon Dec 5 13:53:14 2011 +0100
+
+    Busy on #2. Moved isBetterLocation() from MyDeviceLocation to
+    MainActivity.
+
+commit e6f168533096dd25af425d180bfd23229c63e062
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Fri Dec 2 12:46:09 2011 +0100
+
+    Removing some debug messages that cluttered the debug stream
+
+commit 7ce47038c73a37f93e73f772e173f17c2b83651c
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Fri Dec 2 10:20:49 2011 +0100
+
+    closes #10. Using onApiTaskFinished the app can respond to the finished
+    registration process. Registering happens with Propose (Virgin) and
+    Connect (Enter Proposal), not anywhere else. This makes sure the
+    registration is completed when you connect.
+
+commit 2ddb40ff790f61e9ba6deb5b97ecd4801c9b5807
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Dec 1 10:11:41 2011 +0100
+
+    Closes #4. Forgot Bundle argument in onCreateDialog, so it was not
+    called..
+
+commit 15fe385d62d4cb595fb1d195eaa109a3694df369
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Dec 1 09:58:52 2011 +0100
+
+    Fixes #2
+
+commit a061bfe13b116f3a3123d51f65fd10d6d1d1674a
+Merge: 22c86bd 76f4192
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Nov 29 18:29:50 2011 +0100
+
+    Merge remote branch 'origin/master'
+
+commit 22c86bd1225bbf31accea2b8104bf6f2db985d7d
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Nov 29 18:29:09 2011 +0100
+
+    Making sure the pushes arrive
+
+commit 76f41920717577af8fc440987b82271b22d700f1
+Author: jj <jj@r2src.com>
+Date:   Tue Nov 29 18:00:58 2011 +0100
+
+    fixed logo posterization issue
+
+commit 2c6ee83f1ae372347f2803d46974d3eace3fd215
+Author: jj <jj@r2src.com>
+Date:   Tue Nov 29 13:28:28 2011 +0100
+
+    minor html tweak
+
+commit 2506917b745078c81b3ab980e2027c82ab9c4a2c
+Author: jj <jj@r2src.com>
+Date:   Tue Nov 29 12:52:53 2011 +0100
+
+    minor html tweak
+
+commit a7ed9aea346da3f50c7d6ed38ea4e9b647c90978
+Author: jj <jj@r2src.com>
+Date:   Tue Nov 29 12:44:57 2011 +0100
+
+    minor html tweak
+
+commit 7ba0d328aa0105fb52057d6081d3c8f3088c786a
+Author: jj <jj@r2src.com>
+Date:   Tue Nov 29 12:43:58 2011 +0100
+
+    minor html tweak
+
+commit 90652fdc501c4a766333e2bc6c519404e5cecbe4
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Nov 29 12:42:07 2011 +0100
+
+    handling dialog dismiss gracefully
+
+commit d5e63514b8e82fa5f7d4af9291bd0e7a1b1e6ca3
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Nov 29 12:27:56 2011 +0100
+
+    Fixed out of memory in main activity, was due to large together image.
+
+commit 28798c7bb5935ba89ee39066928534ad7eead0fc
+Author: jj <jj@r2src.com>
+Date:   Tue Nov 29 12:14:56 2011 +0100
+
+    minor html tweak
+
+commit a7a5cdd44dde321150a89a91514ee0e91160c4ed
+Author: jj <jj@r2src.com>
+Date:   Tue Nov 29 12:12:46 2011 +0100
+
+    minor html tweak
+
+commit e1c4271e0f043db39811e8af0e48cd1c61c36a12
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Nov 29 12:11:48 2011 +0100
+
+    Some changes with respect to memory management
+
+commit 9b09f3da8c7a39394f8b4d6ef3c1730061aeff2b
+Author: jj <jj@r2src.com>
+Date:   Tue Nov 29 12:09:12 2011 +0100
+
+    minor html tweak
+
+commit 74274c368d37aa830d538aa05a7bf4a60cf3b771
+Author: jj <jj@r2src.com>
+Date:   Tue Nov 29 12:01:14 2011 +0100
+
+    update website design
+
+commit 0dc6614b7307bdd92780b8da3898a902f0eab064
+Author: jj <jj@r2src.com>
+Date:   Tue Nov 29 09:55:37 2011 +0100
+
+    smaller background
+
+commit 85676db55ee714794633e76c28af479b7dd6b7e9
+Merge: f50107f b413aa0
+Author: jj <jj@r2src.com>
+Date:   Tue Nov 29 09:38:39 2011 +0100
+
+    Merge branch 'master' of edge:projects/connect-forever
+
+commit b413aa0f979be0ec7a5b17ef874928ef9def7019
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Nov 29 08:41:41 2011 +0100
+
+    Added screenshot of app with new background.
+
+commit f50107f225cc4b14e47d520a83b049c9f374062e
+Author: jj <jj@r2src.com>
+Date:   Sun Nov 27 20:57:08 2011 +0100
+
+    removed google verification (use dns for that!)
+
+commit 3520e03412e60426cd20f8862586181696bfb61a
+Author: jj <jj@r2src.com>
+Date:   Sun Nov 27 13:21:53 2011 +0100
+
+    random changes and google verification
+
+commit 1a680a7555681d0b52afcb37569331ae1ee825ba
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Fri Nov 25 15:45:23 2011 +0100
+
+    choosing arrow works, choosing wallpaper works (again).
+
+commit e8d50ae9a338e2cb7d9e7ae2d779cba272a4fd4b
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Fri Nov 25 15:08:19 2011 +0100
+
+    Refactoring. Implementing use-case.tree. Found out that the large images
+    really have to be in drawable-hdpi, otherwise they just dont fit in
+    memory..
+
+commit 027656b9b6c28e97495b11e944d784662a6a210d
+Author: jj <jj@r2src.com>
+Date:   Thu Nov 24 10:28:42 2011 +0100
+
+    minor layout tweak
+
+commit ce020ea082bdb22f206ce1c91df5dbe3b49f3be9
+Merge: 3daf7b3 1c6b230
+Author: jj <jj@r2src.com>
+Date:   Thu Nov 24 09:18:22 2011 +0100
+
+    Merge branch 'master' of edge:projects/connect-forever
+
+commit 1c6b2307473cf40731a844df2f91c52c9d19b6bf
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Nov 24 09:17:32 2011 +0100
+
+    Refactoring
+
+commit 44458db4c37a164f115f966675bff4e9a5a0ff4f
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Wed Nov 23 17:49:27 2011 +0100
+
+    key not found dialog didnt show due to missing break statement
+
+commit a3e70474cd300606f4e98143694add872f55907b
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Wed Nov 23 16:23:00 2011 +0100
+
+    Refactor. Made a sharedPrefs class, that handles all locally persistent
+    storage.
+
+commit 7976230f3acbc1b332edbe45bbb7846790343142
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Wed Nov 23 14:37:27 2011 +0100
+
+    Adding verbose log messages to activities.
+    Refactored Virgin Activity
+
+commit f9f2dd529698a17704d7e3459d3b47a07a3303e1
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Wed Nov 23 13:40:07 2011 +0100
+
+    SingleLocationRequester is now singleton.
+    Refactored arrow class, changing arrow is now done by
+    startActivityForResult.
+
+commit bd9de129de552bd69be7091fad980433625a6308
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Wed Nov 23 11:48:03 2011 +0100
+
+    Sending an orderedBroadcast from C2DM Receiver. First activity is
+    notified (if app is active). Then (if app is inactive) notification
+    builder is called.
+    Some little changes to improve usability
+
+commit d8b62925664c0998cba7fec7108bf7e7a91038f1
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Wed Nov 23 09:26:07 2011 +0100
+
+    No returns in enter code box, pressing return or done hides soft
+    keyboard
+
+commit 3daf7b3539dec7c55e050b40f73b98bdbde6520e
+Author: jj <jj@r2src.com>
+Date:   Tue Nov 22 16:38:36 2011 +0100
+
+    1st streaming api server
+
+commit 613afda652a95c6f2ff9002b6cb7ec7be249acf7
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Nov 22 16:20:52 2011 +0100
+
+    Solved some minor bugs that surfaced during testing
+
+commit b87e589d400973f88a7c24ba13aadff2af3042b0
+Merge: 9269a83 2b403ac
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Nov 22 15:42:26 2011 +0100
+
+    Merge branch 'master' of git@r2src.com:connect-forever
+
+commit 9269a8300126c175333ccdd37f6e0c3913769103
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Nov 22 15:41:57 2011 +0100
+
+    Force Checking connection from showproposal activity now possible
+
+commit 8ac508452544c2662e9318f1c155bef2729353c9
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Nov 22 15:34:32 2011 +0100
+
+    When entering a proposal code, we check if this is the code you
+    requested yourself, and give an appropriate dialog.
+
+commit 4fd162e87aa77c79c761b5cdd511461803e424fd
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Nov 22 15:25:08 2011 +0100
+
+    Reset the app if your partner reset his.
+
+commit a67265eecf31d33110189b2ec3e6a24490e0031f
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Nov 22 15:07:05 2011 +0100
+
+    Requesting a location on mainactivity start.
+    Checking for registration complete on virgin activity resume.
+
+commit 2b403acb00b724a2f9adb4344384f9939b8db6af
+Merge: 5c4629f adf1a3d
+Author: jj <jj@r2src.com>
+Date:   Tue Nov 22 13:13:19 2011 +0100
+
+    Merge branch 'master' of r2src.com:connect-forever
+
+commit 5c4629f3af359094e816c2abcc101f1590d8ed35
+Author: jj <jj@r2src.com>
+Date:   Tue Nov 22 13:13:05 2011 +0100
+
+    NEW c2dm push version of api
+
+commit ff14a528d55ee13c82874c8cb21f0fbe3dc0b8cc
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Nov 22 10:29:47 2011 +0100
+
+    storing persistently whether or not reg id should be send to api
+
+commit a11c80e28c4af40ee54d2f0f2dd97cbc449d7a38
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Nov 22 10:23:17 2011 +0100
+
+    Refactoring: Implementing the s*ngl*t*n design pattern for the
+    MyDeviceLocation class
+
+commit 2252388f61f04b5d4a3e6b8cb06a373460c66d29
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Nov 22 10:09:10 2011 +0100
+
+    Forgot to remove obsolete methods
+
+commit adf1a3dbf44358395ee8521cda711a90c51b0d15
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Nov 22 10:07:33 2011 +0100
+
+    Handling registration and update registration id the same way.
+    Remembering whether or not the API knows the id changed.
+    Now: when to retry connecting api?
+
+commit cdeb1118aef61f6c8d0de655d6c12f31f7f312bc
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Mon Nov 21 17:12:46 2011 +0100
+
+    Sending UUID with api requests instead of registration id
+
+commit 8559a986cdcc14e59aef002eaed8f87eda0c8089
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Mon Nov 21 16:43:53 2011 +0100
+
+    Successfull C2DM registration now directly leads to a web api
+    registration request.
+
+commit d1dacc4c4fb81f1c8519188796ee662c4974d5aa
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Mon Nov 21 13:46:42 2011 +0100
+
+    More work on registration. Still not finished
+
+commit 0c58d5936aa87e2b39e6e554109591234c54191a
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Mon Nov 21 11:37:15 2011 +0100
+
+    Removed the whole pulling / pushing interval stuff. Now you can only ask
+    for a location once, and receive it once by push notification.
+
+commit 2071d3fa784f90883b4c0b779752fd1890417b5f
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Mon Nov 21 10:45:11 2011 +0100
+
+    Little bit of cleaning. Note: Last POLLING revision!
+
+commit 9b97690e81c3374b682889caa7e6340fad7a5550
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Mon Nov 21 10:40:19 2011 +0100
+
+    Handling registration errors. Not finished, but better
+
+commit c5a6d6d4228328ab547b4cd5115a4a06cc2497e7
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Sun Nov 20 15:55:19 2011 +0100
+
+    Removed all errors and warnings with the help of Eclipse
+
+commit 15f4d7df29fba11999a355ef53f82533d9ffe19b
+Author: jj <jj@r2src.com>
+Date:   Sun Nov 20 15:14:39 2011 +0100
+
+    my first try/messup with eclipse
+
+commit b4851bc714c65dbc77f4a94838cc0192daa6d603
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Sun Nov 20 08:39:08 2011 +0100
+
+    Changed the reset activity somewhat. Not finished.
+
+commit f7c309eaf4d38242443b0bb8917df2a6ecd29679
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Fri Nov 18 19:09:53 2011 +0100
+
+    Worked on design
+
+commit bfef138734b3a0515d63d7dd18c19c027cb9581a
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Fri Nov 18 10:42:48 2011 +0100
+
+    Showing logo when devices are close, showing progressdialog while fetching other location
+
+commit f06c94543b5ade817987307b9156595050f36b3b
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Fri Nov 18 09:55:32 2011 +0100
+
+    Smoothing arrow, solving bugs
+
+commit 18a07f4843b7cfb39a0a789bb8da4e2327c86879
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Nov 17 11:47:56 2011 +0100
+
+    Moved background, logo, and arrows to right places.
+
+commit db1f6283ff24f76f585cf64009d57790c97d9b6b
+Merge: 5bf7f40 8450217
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Nov 17 11:17:38 2011 +0100
+
+    Merge branch 'master' of sea:projects/connect-forever
+
+commit 8450217099332d275feb46807df33fab17221772
+Author: jj <jj@r2src.com>
+Date:   Thu Nov 17 11:12:55 2011 +0100
+
+    new designs!
+
+commit 5bf7f40a756389ae7bafc365aa67e3c184274bd7
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Nov 17 11:09:31 2011 +0100
+
+    Registering is now done via ApiTask.
+    Removed check button, withraw button moved to menu
+    Two pushes for connection
+
+commit 5e5d754165fd3765c64ffd3fd073cc98d4ec099f
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Nov 17 08:03:36 2011 +0100
+
+    added black and white icon for notification bar
+
+commit 7259456e297b99a4e525ee72f387910494b65571
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Nov 17 08:03:01 2011 +0100
+
+    Pushing and asking for location now works. Some bugs remain.
+
+commit 7621f49c342c29741628928f1f913f16efd5715b
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Wed Nov 9 19:14:59 2011 +0100
+
+    Yes, it works..
+
+commit c917d66afda3e4bff88e589a3e4a964d12af6e09
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Wed Nov 9 18:12:12 2011 +0100
+
+    AuthToken stuff seems right now.. InvalidRegistration remains
+
+commit f2d23e4cd5ba2e02c85f011639d1de91a4ae4c05
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Wed Nov 9 15:02:02 2011 +0100
+
+    Approach https, not http
+
+commit d0856e4a9bba0dc96e62b8ad387f2db55fdbba31
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Wed Nov 9 14:00:46 2011 +0100
+
+    50 percent on my way to get C2DM working..
+
+commit 62c06f2473c3e0485b66bd0eae8c3a3795ffbe39
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Nov 8 13:52:36 2011 +0100
+
+    Basic Pushing system works (server-side)
+
+commit c40ca51f56d5a52ebcb887f318ff934d85bf3df9
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Mon Nov 7 21:43:19 2011 +0100
+
+    Changing to JSON communication, using push notifications
+
+commit 8133a84c07a0194f8dde86f7d90cdf014b6fb6e2
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Mon Nov 7 16:05:24 2011 +0100
+
+    Rewriting api to implement C2DM. Not finished yet
+
+commit 9921b6b4096f877eb681b51ec066b89b62f859f9
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Mon Nov 7 12:03:50 2011 +0100
+
+    Added the groundwork for the C2DM architecture.
+
+commit 2e4c63a83453286b6c3282deb4721db32d566cff
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Nov 3 18:32:00 2011 +0100
+
+    added definition list
+
+commit b70fe59d15230bd4f5e3725e69b9bc54aac707c8
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Nov 3 16:43:02 2011 +0100
+
+    div surrounding better
+
+commit 4d16383533c3d4352ff90bf963d0fdf53779317c
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Nov 3 16:40:42 2011 +0100
+
+    added div
+
+commit cc684c2e5f649b84357c33a6447dea531aedee57
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Nov 3 16:28:29 2011 +0100
+
+    changed order
+
+commit 09539322dc7fbce497adc9915cea0b9b8b0d0501
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Nov 3 16:19:56 2011 +0100
+
+    changed order
+
+commit 1fd2d0fd68d22efda0d391eddb968cddbe9246cf
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Nov 3 16:05:41 2011 +0100
+
+    removed divs, changed order
+
+commit 1d08e25e42c431eca0393b513e1e73b4102fa12b
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Nov 3 15:53:12 2011 +0100
+
+    entered breaks
+
+commit e3346e2ff34101c85882c5000572acfa49ebdcf4
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Nov 3 15:44:32 2011 +0100
+
+    banner in two divs
+
+commit 0dc8e21bc3913b535cbbc607ce907c7c05249e91
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Nov 3 15:31:43 2011 +0100
+
+    Added webputty code
+
+commit 8758cd5fc63446a86b57323351a7f72ece90b36b
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Nov 3 15:17:37 2011 +0100
+
+    Bare site
+
+commit 7dede425f51210b58e95a41986e4d234cef5cb9a
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Oct 18 13:04:19 2011 +0200
+
+    Extracted images from website svg. Changed text in website svg.
+
+commit 9b82d34b2203e4a68a4934945cf5930a0eb8ba74
+Author: J.J. Vens <jj@r2src.com>
+Date:   Mon Oct 17 15:21:11 2011 +0200
+
+    fixed broken links in website.svg
+
+commit 04d02e563aef83c0d28a90bc79fa23e5bd6c1868
+Merge: a6abb03 782b02e
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Mon Oct 17 15:13:56 2011 +0200
+
+    Merge branch 'master' of soil.r2src.com:~/connect-forever
+
+commit a6abb0301833e027fb9a6cf1b808aa388924beb4
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Mon Oct 17 15:13:41 2011 +0200
+
+    Added change arrow functionality
+
+commit 782b02e0e2a709f85b5693d58f70dbeff9e5adac
+Author: J.J. Vens <jj@goliath.r2src.com>
+Date:   Mon Oct 17 15:10:36 2011 +0200
+
+    created website design
+
+commit 1972ec694705e2bb94873788ff3363c90d6ee17f
+Author: J.J. Vens <jj@eee.fritz.box>
+Date:   Mon Oct 17 13:25:45 2011 +0200
+
+    found cool android svg graphic
+
+commit 1d89893787388a650a3fa1e6db34b2eb6703bbdb
+Author: Jolanda Verhoef <lojanda@edge.r2src.com>
+Date:   Thu Oct 13 12:52:36 2011 +0200
+
+    Solving some bugs, designing.
+
+commit 7c6b9dc8098b5bd819b75f8ada92423c05f443fa
+Author: Jolanda Verhoef <lojanda@edge.r2src.com>
+Date:   Fri Oct 7 08:59:24 2011 +0200
+
+    Added some graphics
+
+commit c29b2fedeef7e8522ba27cfa5b2aa25a20ee25f1
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Oct 4 21:39:06 2011 +0200
+
+    Adding the icon.
+
+commit 30818a44d4b8d604ad66e036279fa7d8c0cc747d
+Merge: 49438a4 3f8ca7e
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Oct 4 12:05:48 2011 +0200
+
+    Merge branch 'master' of soil.r2src.com:~/connect-forever
+
+commit 49438a49bc7f0fd23adeb91a0d4651630ab34314
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Oct 4 12:05:01 2011 +0200
+
+    Fixed memory leak issues. Also bug with resetting is fixed.
+
+commit 8dc0047de56e812c7f64ff5072f06033a48183cd
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Fri Sep 23 19:31:06 2011 +0200
+
+    Working on reliability of the program, walking through scenarios.
+
+commit 3f8ca7e67950abadd25096f04a69ddadc622ee7e
+Author: jj <jj@r2src.com>
+Date:   Thu Sep 22 13:01:50 2011 +0200
+
+    moved file
+
+commit ad815c9d8fd403b31a4079bc6b3c204c0e64d878
+Merge: 3b7a673 414b051
+Author: jj <jj@r2src.com>
+Date:   Thu Sep 22 13:00:52 2011 +0200
+
+    Merge branch 'master' of soil.r2src.com:~/connect-forever
+
+commit 3b7a673799a6f569d1a0023116cedd9a5beb38f8
+Author: jj <jj@r2src.com>
+Date:   Thu Sep 22 12:59:46 2011 +0200
+
+    lame logo
+
+commit 414b0511cb8865e99fbadcf63d5c4d276d6b8ce1
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Sep 22 12:46:26 2011 +0200
+
+    All kind of changes during our holiday.
+
+commit 7b1901542bc2605e7ba4b9b52596e669de09440b
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Fri Sep 2 09:08:51 2011 +0200
+
+    Right, now really (ignore last commit)
+
+commit dd40cd22192fcd6092804e761aef44ab4a02cf0e
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Fri Sep 2 09:08:05 2011 +0200
+
+    Added the r2src logo to check the working of the arrow.
+
+commit 35c1bc8ba1516987dc765e7569e8ac190bf77285
+Merge: 357114c 44ef940
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Fri Sep 2 09:07:28 2011 +0200
+
+    Merge branch 'master' into arrow
+
+commit 357114cd213eabf3be9cd911fe992bcd6401a4e9
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Aug 30 21:27:27 2011 +0200
+
+    Arrow is now working! Next step: testing with various arrows..
+
+commit 44ef9408be13213ae65ee879d700b9bd907f3373
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Aug 23 22:37:34 2011 +0200
+
+    Removed some unused images
+
+commit 07dab07e02f79354144ed4e16f29d36340c920b8
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Aug 23 22:35:36 2011 +0200
+
+    Created a new arrow. Not yet implemented.
+
+commit 52751a8ee2ee552deaa7a475a7f079bfd2b4e7b9
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Mon Aug 22 21:13:33 2011 +0200
+
+    Picture is saved in hidden directory, loaded on program start.
+
+commit 5c2ec4f624b39fdef497c9242d40af191de81e45
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Sun Aug 21 17:26:35 2011 +0200
+
+    Working on implementing the wallpaper. Selecting and cropping an image works.
+    It is currently saved in the sdcard directory, once everything works this can
+    possibly be changed to getExternalFilesDir.
+    Work that has to be done: decoding the saved file to a bitmap, showing this bitmap
+
+commit f419c69216f09afff0124200cb631202d291866e
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Mon Aug 15 10:40:29 2011 +0200
+
+    Trying some background shizzle. Can be easily undone by setting the
+    view of the main activity to the surfaceview that is declared there.
+
+commit 8b824fab07bdf07b507bfc208cb2dc83c52445f7
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Aug 9 14:18:31 2011 +0200
+
+    Tested the app using curl. Encountered and fixed some problems with resetting.
+
+commit 05b9a43331d3dd7d2571ea4f4655fb0c1d2469c6
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Mon Aug 8 12:49:27 2011 +0200
+
+    No clue what changed, forgot to commit last time I worked on it..
+
+commit 70a109ac3115e419a9243975ec75f631cc030759
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Thu Aug 4 14:53:29 2011 +0200
+
+    Wrote a generic way to show progress dialog + error dialogs when requesting
+    information from the web API. Wrappers can be written to increase readability
+    of Activity classes, and all WebAPI calls currently in activity should be changed.
+
+commit 3b4327310252a6931e1316b46792194a09c96495
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Tue Aug 2 09:19:07 2011 +0200
+
+    Completed the Web API class.
+
+commit 7a75e57265df7f92a960b60c6a3a5a5f0d6f7e7d
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Mon Aug 1 23:12:18 2011 +0200
+
+    Added a Mother Activity (BaseActivity) for dialog creation.
+    Added a Application extension, for one-time-only settings.
+    Renamed the other activities.
+
+commit 05d8991dbbd24894368e88e0402323f8fc2bd5e7
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Mon Aug 1 23:12:00 2011 +0200
+
+    Included general get method in Datastore, WebAPI is deprecated.
+
+commit 18ee6ae3db547f1f693a57c67c3b88b0f0b93667
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Mon Aug 1 15:27:40 2011 +0200
+
+    trying to do error handling
+
+commit 4869accfef57591a589a1f5f288d9b6c1c335dd3
+Author: Jolanda Verhoef <jolanda@r2src.com>
+Date:   Sat Jul 30 23:38:08 2011 +0200
+
+    Restructuring code to make it more elegant. Removing Context from WebAPI and
+    Datastore. Regenerated documentation.
+    
+    Note: I added a .todo file which we can use for notes to ourselves. You could
+    make .todo in your home folder a soft link to this .todo file, then you can use
+    this as your main todo list for now (?)
+
+commit 63f0cd20aa5e76cb506577c6a5a0dbf30228a2af
+Author: Jolanda Verhoef <lojanda@brick.(none)>
+Date:   Sat Jul 30 08:25:16 2011 +0200
+
+    Started working on a file which represents the program flow (and which
+    lists all exceptions that can be thrown / have to be catched).
+
+commit 3da97ad1873bcfeedf8a180b57a2a3204cb02942
+Author: Jolanda Verhoef <lojanda@brick.(none)>
+Date:   Thu Jul 28 23:15:02 2011 +0200
+
+    Ok whatevah :)
+
+commit 8edee1e928ba80275dbd358cf4dce780212f4038
+Author: Jolanda Verhoef <lojanda@brick.(none)>
+Date:   Thu Jul 28 23:14:32 2011 +0200
+
+    Forgot -a tssk..
+
+commit 65bbde2189bc1c866025dcf253d26be282120e52
+Author: Jolanda Verhoef <lojanda@brick.(none)>
+Date:   Thu Jul 28 23:13:46 2011 +0200
+
+    Halfway through a major change, code-wise.
+
+commit bfd791b21c6f4f360abdd4090f46e5386060e159
+Author: Jolanda Verhoef <lojanda@brick.(none)>
+Date:   Thu Jul 28 14:42:56 2011 +0200
+
+    Typo
+
+commit a8dff0022660f6846c9effbd3c6a71086baf0036
+Author: Jolanda Verhoef <lojanda@brick.(none)>
+Date:   Thu Jul 28 14:34:09 2011 +0200
+
+    Deleted local build files
+
+commit 62e512ce762d223d2cfc3a807c296b45afa0f831
+Merge: 72b50a1 ae4cf79
+Author: Jolanda Verhoef <lojanda@brick.(none)>
+Date:   Thu Jul 28 14:13:44 2011 +0200
+
+    Merge branch 'master' of soil.r2src.com:~/connect-forever
+
+commit ae4cf79c49f8d1b5e4c0c963ad0c48819f5f6969
+Author: jj <jj@r2src.com>
+Date:   Thu Jul 28 14:13:17 2011 +0200
+
+    started implementing menu
+
+commit 72b50a1d257d6d95a2c710f00700796791814b9e
+Author: Jolanda Verhoef <lojanda@brick.(none)>
+Date:   Thu Jul 28 13:48:03 2011 +0200
+
+    Added a reset method to WebAPI, so that a user can reset his app to
+    factory settings. This might leave a proposal key at the server that is
+    not connected to any device anymore.
+
+commit b33f30da8cd45198735627b0330fd66c2eaf1cd4
+Author: Jolanda Verhoef <lojanda@brick.(none)>
+Date:   Thu Jul 28 13:02:58 2011 +0200
+
+    Changed strings so that functionality becomes clear. Edittext in
+    enter proposal key now shows hint text instead of normal text.
+
+commit afa4fe1d86f47bceb1725c201f456b1363aa70eb
+Merge: 881f77e 462f6e3
+Author: jj <jj@r2src.com>
+Date:   Tue Jul 26 22:30:42 2011 +0200
+
+    Merge branch 'master' of soil.r2src.com:~/connect-forever
+
+commit 881f77e23a45b20f6741e31c7dd78bcff9128268
+Author: jj <jj@r2src.com>
+Date:   Tue Jul 26 22:30:37 2011 +0200
+
+    webapi location call does not return seconds anymore
+
+commit 462f6e3df3f942d55b9b8efbecc6bb3283f18077
+Author: Jolanda Verhoef <lojanda@brick.(none)>
+Date:   Tue Jul 26 20:52:49 2011 +0200
+
+    Fixed the service. Next: Finding a way to test the Arrow, and test it!
+
+commit 6500a601111c35375ee74377909b78a8cf3389e7
+Author: Jolanda Verhoef <lojanda@brick.(none)>
+Date:   Tue Jul 26 20:18:30 2011 +0200
+
+    Created the bare activities for proposing. Somehow broke the service
+    again in the process.. :(
+
+commit 9cb8c14f2639c7b9e59bc28e298b8c281a6b527b
+Merge: 0ca1be1 ecb5529
+Author: jj <jj@r2src.com>
+Date:   Tue Jul 26 18:25:05 2011 +0200
+
+    resolved minor merge conflict
+
+commit 0ca1be1e4d77921b987304e7a9b0f33a4c58a60b
+Author: jj <jj@r2src.com>
+Date:   Tue Jul 26 18:24:09 2011 +0200
+
+    more bugfixes in webapi
+
+commit ecb5529febc05708eaa6284beb26f29be0a1383e
+Author: Jolanda Verhoef <lojanda@brick.(none)>
+Date:   Tue Jul 26 18:23:35 2011 +0200
+
+    Completed webAPI requests and service.
+
+commit b02eb25b80cfb511c002972e2e59b88c540e2386
+Author: Jolanda Verhoef <lojanda@brick.(none)>
+Date:   Tue Jul 26 13:04:00 2011 +0200
+
+    Typo
+
+commit 1048683770b61b9ab071639ff065c837d0ae858d
+Merge: 72b26a9 7817d20
+Author: jj <jj@r2src.com>
+Date:   Tue Jul 26 12:55:52 2011 +0200
+
+    Merge branch 'master' of soil.r2src.com:~/connect-forever
+
+commit 72b26a910f03c0963228b6cb3552aac8eb728f24
+Author: jj <jj@r2src.com>
+Date:   Tue Jul 26 12:55:48 2011 +0200
+
+    some api bugfixes
+
+commit 7817d20e6df898d22d59eaa360ca7e6eef6ee73d
+Merge: 09f3bd3 3b5f9ba
+Author: Jolanda Verhoef <lojanda@brick.(none)>
+Date:   Tue Jul 26 12:55:12 2011 +0200
+
+    Merge branch 'master' of soil.r2src.com:~/connect-forever
+
+commit 09f3bd3b1ea21ce982131570fa525ddac9049259
+Author: Jolanda Verhoef <lojanda@brick.(none)>
+Date:   Tue Jul 26 12:53:06 2011 +0200
+
+    Service works! Connects to the webAPI every minute to request status.
+    Doesn't handle the response yet. Next: uuid for the user.
+
+commit 3b5f9bafb4f5fab24a0baf2ef2ec1540b5ec13b4
+Author: jj <jj@r2src.com>
+Date:   Tue Jul 26 12:30:26 2011 +0200
+
+    API complete: includes a mechanism for connecting
+
+commit a7171bc9fd5ade80ba336bf223b46339019e9dce
+Author: Jolanda Verhoef <lojanda@brick.(none)>
+Date:   Mon Jul 25 23:18:48 2011 +0200
+
+    code review completed
+
+commit 1f09b7272e0289bca6e7b208f65d92cd33a3e37f
+Author: jj <jj@r2src.com>
+Date:   Mon Jul 25 21:13:16 2011 +0200
+
+    api bug-fixes
+
+commit 562295584b962882a637da6a403171a0b65c4d38
+Merge: 279b815 1771821
+Author: Jolanda Verhoef <lojanda@brick.(none)>
+Date:   Mon Jul 25 21:12:26 2011 +0200
+
+    Merge branch 'master' of soil.r2src.com:~/connect-forever
+
+commit 279b8158d931d14da06ecbf9aca8f67f32d22029
+Author: Jolanda Verhoef <lojanda@brick.(none)>
+Date:   Mon Jul 25 21:10:57 2011 +0200
+
+    First successful contact with the webAPI established! Next job:
+    making the service work (it can't find the right class).
+
+commit 1771821a6d9e5bd86063a26e72fb6c81a23c137d
+Merge: 94845ac 99d3429
+Author: jj <jj@r2src.com>
+Date:   Mon Jul 25 19:57:26 2011 +0200
+
+    Merge branch 'master' of soil.r2src.com:~/connect-forever
+
+commit 94845acf19b1630b9809ea0a78124c71b73431b4
+Author: jj <jj@r2src.com>
+Date:   Mon Jul 25 19:57:17 2011 +0200
+
+    first api draft complete
+
+commit 99d34299a41fa5738f9bdf5572b5506862af74f9
+Author: Jolanda Verhoef <lojanda@brick.(none)>
+Date:   Mon Jul 25 19:21:17 2011 +0200
+
+    Added Javadoc.
+    Also included the command to generate this javadoc, run ./doc from
+    app directory.
+
+commit f2fa279e75d927f98c22fa440ae312f24cc17f4e
+Author: Jolanda Verhoef <lojanda@brick.(none)>
+Date:   Mon Jul 25 18:15:43 2011 +0200
+
+    Rotating arrow accomplished! Next mission; contacting the web API.
+
+commit 36af862115654d2d2cd4cdd96621c48f48fa4ca7
+Author: Jolanda Verhoef <lojanda@brick.(none)>
+Date:   Mon Jul 25 11:27:15 2011 +0200
+
+    Starting work on OpenGL, but somehow the rotating cube doesn't
+    show.
+
+commit 8c05555d7ce23c4a97a94be9ec0248ee6667f4f5
+Author: jj <jj@r2src.com>
+Date:   Sun Jul 24 23:55:33 2011 +0200
+
+    huh2
+
+commit feaf9f3476e6746344ca77cf20899b423cc10615
+Merge: 8c0a37c 046e746
+Author: Jolanda Verhoef <lojanda@brick.(none)>
+Date:   Sun Jul 24 23:33:11 2011 +0200
+
+    Merge branch 'master' of soil.r2src.com:~/connect-forever
+
+commit 8c0a37c2dc802d65ebff6139021ff8fae69cbd22
+Author: Jolanda Verhoef <lojanda@brick.(none)>
+Date:   Sun Jul 24 23:32:58 2011 +0200
+
+    started code to keep track of locations
+
+commit 046e746ea7f6a9a65e6224ee45dff805ee824379
+Author: jj <jj@r2src.com>
+Date:   Sun Jul 24 23:20:50 2011 +0200
+
+    pulled in google's library
+
+commit e5624ad142a908871a063d814d7f686f10784aed
+Merge: 7d3bfef a3c11a2
+Author: Jolanda Verhoef <lojanda@brick.(none)>
+Date:   Thu Jul 21 18:59:14 2011 +0200
+
+    Merge branch 'master' of soil.r2src.com:~/connect-forever
+
+commit 7d3bfefd1c09fc2b1d19a96c099ced631b56921b
+Author: Jolanda Verhoef <lojanda@brick.(none)>
+Date:   Thu Jul 21 18:58:20 2011 +0200
+
+    Basic app with imageview. Started on location service.
+
+commit a3c11a2645c7d2696149a18fe25345d801672e36
+Author: jj <jj@r2src.com>
+Date:   Thu Jul 21 18:14:36 2011 +0200
+
+    Hello world version of API
+
+commit e79264e950d4a21855908d16075dadcb360d42e2
+Author: Jolanda Verhoef <lojanda@brick.(none)>
+Date:   Thu Jul 21 12:52:28 2011 +0200
+
+    Empty app added.
